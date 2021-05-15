@@ -61,7 +61,7 @@
 
 
 
-## 4. Hash Collision是什麼?
+## 5. Hash Collision是什麼?
 
 不同筆數據，像是(a, b)，經過中間Hash Function的計算後，得到了一樣的Hashing Address，就是H(a) = H(b)
 
@@ -69,7 +69,7 @@
 
 
 
-## 5. Python中如何操作Dictionary
+## 6. Python中如何操作Dictionary
 
 
 
