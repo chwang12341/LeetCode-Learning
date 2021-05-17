@@ -119,6 +119,16 @@ def isAnagram(s, t):
 isAnagram('elephants', 'aestnhple')
 ```
 
+**執行結果**
+
+```
+True
+```
+
+
+
+
+
 
 
 結果發現第三種方法跑起來更快xd
