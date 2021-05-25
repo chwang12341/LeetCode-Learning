@@ -41,7 +41,7 @@
 + 先拿root比較，是否都存在或都不存在，如果都不存在直接回傳True，如果都存在要還要比較直是否相等，如果不相等回傳False，如果相等就要繼續進行左子樹和右子樹的各自比較
 + 如果左子樹與右子樹相等，那這兩棵二元樹就相同
 
-
+a. 
 
 ```Python
 # Definition for a binary tree node.
@@ -67,6 +67,28 @@ class Solution:
         ## Recursion 遞迴調用函式，來檢查下一個左右子樹的節點是否相同(左子樹根左子樹比、右子樹跟右子樹比
         return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 ```
+
+b. 
+
+```Python
+class Solution:
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
+        if not p and not q:
+            return True
+        if not p or not q:
+            return False
+        return p.val == q.val and self.isSameTree(p.right, q.right) and self.isSameTree(p.left, q.left)
+```
+
+
+
+
+
+
+
+
+
+
 
 
 

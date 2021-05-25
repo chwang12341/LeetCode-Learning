@@ -53,7 +53,7 @@
 **實用算法**
 
 + 二元樹中的第i層，最多可以具有2的i - 1次方個節點數量
-+ 樹高度為k的二元樹，最多可以擁有2的k+1次方減1的節點數量，而節點數量與此公式結果計算出來的相等，稱為**滿二元樹**
++ 樹高度為k的二元樹，最多可以擁有2的k+1次方減1的節點數量，而節點數量與此公式結果計算出來的相等，稱為**完滿二元樹**
 
 
 
@@ -67,9 +67,63 @@
 
 
 
+## 3. 二元樹種類 - 完滿二元樹、完整二元樹、歪斜樹
 
 
-## 3. 二元樹 適用範圍?
+
+### 完滿二元樹 Fully Binary Tree
+
+指的就是沒有任何一個節點會只有單獨連接的左或右節點，而計算節點數量就可以透過公式來達成
+
+![image4](images\image4.png)
+
+
+
+
+
+![image3](images\image3.png)
+
+
+
+
+
+
+
+
+
+### 完整二元樹 Complete Binary Tree
+
+如果高度為h，其節點的數量會小於等於公式
+
+![image5](images\image5.png)
+
+
+
+須符合從上到下，從左到右的規則，也就是可以只有左節點，但不能只有右節點
+
+
+
+![image6](images\image6.png)
+
+
+
+
+
+
+
+### 歪斜樹 Skewed Binary Tree
+
+只有一邊的節點，只有左邊節點就為左歪斜樹，右邊就為右歪斜樹
+
+
+
+![image7](images\image7.png)
+
+
+
+
+
+## 4. 二元樹 適用範圍?
 
 
 
@@ -94,7 +148,6 @@ https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8F%89%E6%A0%91
 https://zh.wikipedia.org/wiki/%E7%BA%BF%E7%B4%A2%E4%BA%8C%E5%8F%89%E6%A0%91
 
 http://wayne.cif.takming.edu.tw/datastru/tree.pdf
-
 
 
 
