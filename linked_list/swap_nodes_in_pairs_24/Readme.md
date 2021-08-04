@@ -71,7 +71,7 @@ class Solution:
 
 **解法概念圖**
 
-![image2](images\image2.png)
+![image2](images\image3.png)
 
 ![image4](images\image4.png)
 
